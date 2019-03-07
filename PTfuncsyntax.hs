@@ -128,7 +128,7 @@ charToPhoneDigit c
     | elem c ['m','n','o','M','N','O'] = 6
     | elem c ['p','q','r','s','P','Q','R','S'] = 7
     | elem c ['t','u','v','T','U','V'] = 8
-    | elem c ['w','c','y','z','W','X','Y','Z'] = 9
+    | elem c ['w','x','y','z','W','X','Y','Z'] = 9
     | otherwise = 0
 
 {-
